@@ -1,0 +1,29 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar{
+    height: 5.5rem;
+    width: 100%;
+    background-color: #fff;
+    transform: top 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.navbar.scrolled{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.logo{
+    display: flex;
+    color: #000;
+    
+}
+.logo img{
+    width: 65px;
+}
